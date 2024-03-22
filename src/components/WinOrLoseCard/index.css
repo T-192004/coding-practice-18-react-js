@@ -1,0 +1,50 @@
+/* Write your code here. */
+.win-lose-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: #ffffff33 solid 3px;
+  background-color: #ffffff33;
+  margin-top: 20px;
+  padding: 60px;
+  width: 35%;
+  height: 90%;
+  border-radius: 20px;
+}
+.result-content {
+  text-align: center;
+}
+.result-tile {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.result-img {
+  width: 250px;
+  height: 300px;
+}
+.result-score-tile {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.final-score {
+  color: #6a59ff;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.playagain-btn {
+  background-color: #ffce27;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'roboto';
+}
